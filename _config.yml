@@ -50,8 +50,8 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
-# Gems
-gems:
+# Plugins Dir
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
