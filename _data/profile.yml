@@ -1,7 +1,13 @@
-name: Admor Aguilar
-short-description: "Game Developer (Unity, Unreal) • Manila, Philippines"
-description: "Passionate and Versatile Game Developer with extensive experience in the game development process. Mainly uses Unity Engine, and Unreal Engine as development tools. Specializes on PC, Mobile (Android, iOS), and VR/AR games, and apps. Strengths are in Gameplay, Optimization, and UI.
-"
+site-title: "TechWaterMedia"
+name: "Admor Aguilar"
+short-description: "Game Developer (Unity, Unreal) <br> Manila, Philippines"
+description: "Specializes on PC, Mobile (Android, iOS), and VR/AR. <br> Strengths are in Systems Architecture, Optimization, UI, and Gameplay. <br>"
+current-position-name: "Unity Developer"
+current-company-name: "David Morgan Education"
+current-company-website: "https://dm-ed.com/"
+location: "Manila, Philippines"
+phone: ""
+email: "admor.aguilar@gmail.com"
 social-links: [
   {
     name: "LinkedIn",
@@ -14,4 +20,3 @@ social-links: [
     font-awesome-icon: "fa-github"
   }
 ]
-  
