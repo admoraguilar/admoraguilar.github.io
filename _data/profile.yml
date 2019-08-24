@@ -5,13 +5,13 @@ description: "Passionate and Versatile Game Developer with extensive experience 
 social-links: [
   {
     name: "LinkedIn",
-    url: https://www.linkedin.com/in/admoraguilar/,
-    font-awesome-icon: fa-linkedin,
+    url: "https://www.linkedin.com/in/admoraguilar/",
+    font-awesome-icon: "fa-linkedin",
   },
   {
     name: "Github",
-    url: https://github.com/techwatermedia,
-    font-awesome-icon: fa-github
+    url: "https://github.com/techwatermedia",
+    font-awesome-icon: "fa-github"
   }
 ]
   
