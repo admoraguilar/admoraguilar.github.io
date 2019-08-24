@@ -1,6 +1,9 @@
-site-title: "TechWaterMedia"
+# Site
+site_title: "Admor Aguilar"
+
+# Personal Information
 name: "Admor Aguilar"
-short-description: "Game Developer (Unity, Unreal)"
+short_description: "Game Developer (Unity, Unreal)"
 description: "Specializes on PC, Mobile (Android, iOS), and VR/AR. <br> Strengths are in Systems Architecture, Optimization, UI, and Gameplay."
 current-position-name: "Unity Developer"
 current-company-name: "David Morgan Education"
@@ -8,15 +11,15 @@ current-company-website: "https://dm-ed.com/"
 location: "Manila, Philippines"
 phone: ""
 email: "admor.aguilar@gmail.com"
-social-links: [
+social: [
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/admoraguilar/",
-    font-awesome-icon: "fa-linkedin",
+    fontawesome_icon: "fa-linkedin",
   },
   {
     name: "Github",
-    url: "https://github.com/techwatermedia",
-    font-awesome-icon: "fa-github"
+    url: "https://github.com/admoraguilar/",
+    fontawesome_icon: "fa-github"
   }
 ]

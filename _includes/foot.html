@@ -21,13 +21,13 @@
       </section>
     {% endif %}
     
-    {% if site.data.profile.social-links.size > 0 %}
+    {% if site.data.profile.social.size > 0 %}
       <section>
         <h3>Social</h3>
         <ul class="icons alt">
-          {% for link in site.data.profile.social-links %}
+          {% for social in site.data.profile.social %}
             <li>
-              <a href={{link.url}} class="icon {{link.font-awesome-icon}}" rel="nofollow" target="_blank">
+              <a href={{social.url}} class="icon {{social.fontawesome_icon}}" rel="nofollow" target="_blank">
                 <span class="label">{{link.name}}</span>
               </a>
             </li>

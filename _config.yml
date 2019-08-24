@@ -1,7 +1,7 @@
 # Site
-title:              TechWaterMedia
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+title:              Admor Aguilar
+bio:                'Game Developer (Unity, Unreal)'
+description:        "Specializes on PC, Mobile (Android, iOS), and VR/AR. <br> Strengths are in Systems Architecture, Optimization, UI, and Gameplay"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -11,15 +11,6 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
-
-# personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
 background_image:   /images/bg.jpg
@@ -30,7 +21,7 @@ defaults:
 - scope:
     path: ''
   values:
-    title: TechWaterMedia
+    title: Admor Aguilar
 - scope:
     path: ''
     type: posts

@@ -18,12 +18,12 @@
 			<!-- Intro -->
 			<div id="intro">
 				<h1>{{site.data.profile.name}}</h1>
-				<h2>{{site.data.profile.short-description}}</h2>
+				<h2>{{site.data.profile.short_description}}</h2>
 				<p>
-					{{site.data.profile.description}}
+					{{site.data.profile.description}} <br>
 					{% if site.data.profile.position-name != ""
-								and site.data.profile.current-company-name != "" 
-								and site.data.profile.current-company-website != "" %}
+					   and site.data.profile.current-company-name != "" 
+					   and site.data.profile.current-company-website != "" %}
 					Currently a {{site.data.profile.current-position-name}} @
 					<a href="{{site.data.profile.current-company-website}}" target="_blank" rel="nofollow">
 						{{site.data.profile.current-company-name}}
