@@ -97,9 +97,7 @@ sitemap:
     <h1>Projects</h1>
   </header>
   <header>
-    <span class="image fit">
-      <p> {% include youtube-embed.html id="hTasWq0j_tw"%} </p>
-    </span>
+    {% include youtube-embed.html id="hTasWq0j_tw"%}
     <h2>[ｄｒｉｖｅ　ニギ゠] Megiapa - ♥u&cym</h2>
   </header>
   <blockquote>
