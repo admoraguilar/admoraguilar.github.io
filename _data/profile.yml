@@ -34,6 +34,7 @@ experiences: [
   {
     title: "Unity Developer",
     company: "David Morgan Education",
+    company_logo: "/images/companies/DMED.png",
     company_website: "https://dm-ed.com/",
     location: "Oxford, United Kingdom",
     duration: "2018 - Present",
@@ -48,6 +49,7 @@ experiences: [
   {
     title: "Lead Technical Developer",
     company: "MyHomespace Inc.",
+    company_logo: "/images/companies/MyHomespace.png",
     company_website: "https://youtu.be/2NAbet0IDD4",
     location: "Manila, Philippines",
     duration: "2017 - 2018",
@@ -63,6 +65,7 @@ experiences: [
   {
     title: "Technical Developer Intern",
     company: "Secret 6",
+    company_logo: "/images/companies/Secret-6.png",
     company_website: "https://secret6.com/",
     location: "Pasig, Philippines",
     duration: "2017",

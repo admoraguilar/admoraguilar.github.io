@@ -36,6 +36,9 @@ sitemap:
   </header>
   {% for experience in site.data.profile.experiences %}
     <header>
+      <span class="image right">
+        <img src="{{experience.company_logo | absolute_url }}">
+      </span>
       <h2>{{experience.title}}</h2>
       <p>
         <a href="{{experience.company_website}}" target="_blank">{{experience.company}}</a> | {{experience.location}} <br/> {{experience.duration}} <br>
