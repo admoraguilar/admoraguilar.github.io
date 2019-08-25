@@ -10,9 +10,10 @@ sitemap:
   <!-- WELCOME -->
   <div class="box alt">
     <div class="row 50% uniform">
-      <div class="4u"><span class="image fit"><img src="{{ "/images/pic02.jpg" | absolute_url }}" alt="" /></span></div>
-			<div class="4u"><span class="image fit"><img src="{{ "/images/pic03.jpg" | absolute_url }}" alt="" /></span></div>
-			<div class="4u$"><span class="image fit"><img src="/images/pic04.jpg" alt="" /></span></div>
+      <div class="4u"><span class="image fit"><img src="{{ "/images/unityeditortools/UnityEditorTools-1.gif" | absolute_url }}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{{ "/images/unityeditortools/UnityEditorTools-2.gif" | absolute_url }}" alt="" /></span></div>
+      <div class="4u"><span class="image fit"><img src="{{ "/images/unityeditortools/UnityEditorTools-3.gif" | absolute_url }}" alt="" /></span></div>
+			<div class="4u$"><span class="image fit"><img src="/images/unityeditortools/UnityEditorTools-4.gif" alt="" /></span></div>
     </div>
   </div>
   <hr/>
