@@ -16,20 +16,16 @@ sitemap:
   </header>
   <div class="box alt">
     <div class="row 50% uniform">
-      {% for file in site.static_files %}
-        {% if file.path contains "unityeditortools" %}
-          {% assign filenameparts=file.path | split: "/" %}
-					{% assign filename=filenameparts | last | replace: file.extname, "" %}
-            <div class="4u">
-              <span class="image fit">
-                <a href="{{ file.path | absolute_url }}" title="{{ filename }}">
-                  <img src="{{ file.path | absolute_url }}" alt="{{ filename }}" title="" />
-                  <p> {{ filename }} </p>
-                </a>
-              </span>
-            </div>
-        {% endif %}
-      {% endfor %}
+      {% for unity_editor_tools in site.data.profile.unity_editor_tools %}
+        <div class="4u">
+          <span class="image fit">
+            <a href="{{ unity_editor_tools.image_path | absolute_url }}" title="{{ unity_editor_tools.name }}">
+              <img src="{{ unity_editor_tools.image_path | absolute_url }}" alt="{{ filename }}" title="" />
+              <p> {{ unity_editor_tools.name }} </p>
+            </a>
+          </span>
+        </div>
+      {% endfor%}
     </div>
   </div>
   <hr/>
@@ -96,19 +92,32 @@ sitemap:
   <header class="major" id="projects">
     <h1>Projects</h1>
   </header>
-  <header>
-    {% include youtube-embed.html id="hTasWq0j_tw"%}
-    <h2>[ｄｒｉｖｅ　ニギ゠] Megiapa - ♥u&cym</h2>
-  </header>
-  <blockquote>
-    An animated music video created in 2 weeks from conceptualization to finish for Unity Neon Challenge.
-  </blockquote>
-  <p>
-    <ul>
-      <li>A project for fun, was responsible for everything from conceptualization to finish which was also lightly edited on a video editing software for final touches.</li>
-      <li>This project required different optimization techniques to run smoothly at 60FPS such as Level-of-Detail(LOD), Baked Lighting, Occlusion Culling, etc.</li>
-    </ul>
-  </p>
+  {% for project in site.data.profile.projects %}
+    <header>
+      <header>
+        {% assign youtube_id = project.youtube_id %}
+        {% include youtube-embed.html id=youtube_id %}
+        <p>{{project.youtube.id}}</p>
+        <h2>{{ project.name }}</h2>
+        <p>{{ project.duration }}</p>
+      </header>
+      {% if project.header != "" %}
+        <blockquote> {{ project.header }} </blockquote>
+      {% endif %}
+      <p>
+        <ul>
+          {% for description in project.descriptions %}
+            <li>{{ description }}</li>
+          {% endfor %}
+        </ul>
+      </p>
+      <ul class="actions fit">
+        {% for link in project.links %}
+            <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.name}}</a></li>
+        {% endfor %}  
+      </ul>
+    </header>
+  {% endfor %}
   <hr/>
 
   <!-- EDUCATION -->

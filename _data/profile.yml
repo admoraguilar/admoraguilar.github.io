@@ -28,3 +28,102 @@ social: [
     fontawesome_icon: "fa-github"
   }
 ]
+
+
+
+# Projects
+unity_editor_tools: [
+  {
+    name: "Serializable Conditions",
+    image_path: "/images/unityeditortools/SerializableConditions.gif",
+  },
+  {
+    name: "Adaptiveness Simulator",
+    image_path: "/images/unityeditortools/AdaptivenessSimulator.gif",
+  },
+  {
+    name: "Complexity Simulator",
+    image_path: "/images/unityeditortools/ComplexitySimulator.gif",
+  },
+  {
+    name: "State Event Trigger",
+    image_path: "/images/unityeditortools/StateEventTrigger.gif",
+  },
+  {
+    name: "Serializable Interfaces",
+    image_path: "/images/unityeditortools/SerializableInterfaces.gif",
+  },
+]
+
+projects: [
+  {
+    name: "[ｄｒｉｖｅ　ニギ゠] Megiapa - ♥u&cym",
+    duration: "Jan 2018",
+    youtube_id: "hTasWq0j_tw",
+    header: "An animated music video created in 2 weeks from conceptualization to finish for Unity Neon Challenge.",
+    descriptions: [
+      "A project for fun, was responsible for everything from conceptualization to finish which was also lightly edited on a video editing software for final touches.",
+      "This project required different optimization techniques to run smoothly at 60FPS such as Level-of-Detail(LOD), Baked Lighting, Occlusion Culling, etc."
+    ],
+    links: [
+      {
+        name: "View on Unity Connect",
+        url: "https://connect.unity.com/p/drive-nigi"
+      },
+    ]
+  },
+  {
+    name: "Homespace - Demo",
+    duration: "Dec 2017 - May 2018",
+    youtube_id: "2NAbet0IDD4",
+    header: "An animated music video created in 2 weeks from conceptualization to finish for Unity Neon Challenge.",
+    descriptions: [
+      "Made with Unity 2018 and released for Android devices. It's an online-only app that features real-time 3D movement, user account management, and cloud save.",
+      "Responsible for its creation from scratch to release, did everything except for the conceptualization of the product as this was done for a tech startup and not a personal project.",
+      "This required a lot of optimizations from the app's startup to long up-times as mobile devices are generally weaker than PCs."
+    ],
+    links: [
+      {
+        name: "Google Play Store",
+        url: "https://play.google.com/store/apps/details?id=com.MyHomespaceInc.A"
+      },
+      {
+        name: "Source Code on GitHub",
+        url: "https://github.com/wishfuldroplet/unity-projecta"
+      }
+    ]
+  },
+  {
+    name: "After Image Remastered",
+    duration: "Apr 2017",
+    youtube_id: "B3nhaIevAGY",
+    header: "A third person action-adventure game about a dead man who had been revived using cybernetics by the mysterious Agaran Industries.",
+    descriptions: [
+      "Made with Unreal Engine 4 using C++ and released for PC. Project took 3 months to make with a team of 8 people for our second college thesis project.",
+      "Responsible for making tools such as an event system that could be used for decoupled communication between objects. The tool could also be used through Unreal's Blueprint hence empowering our designers.",
+      "Responsible for general parts of the game such as design, narrative, UX, and cinematics."
+    ],
+    links: [
+      {
+        name: "Source Code on GitHub",
+        url: "https://github.com/wishfuldroplet/ue4_afterimage2"
+      }
+    ]
+  },
+  {
+    name: "World of Numbers",
+    duration: "Apr 2018",
+    youtube_id: "2upmXAZFl_s",
+    header: "",
+    descriptions: [
+      "Made with Unity 2018 and released for both Android and iOS devices. Features online connectivity such as global leaderboards, user account management, and cloud save.",
+      "Responsible for everything in the game: design, programming, art, music, etc. Prototype took 3 days to make, extra polish and online features extended the project for about a month."
+    ],
+    links: [
+      {
+        name: "Source Code on GitHub",
+        url: "https://github.com/admoraguilar/unity_worldofnumbers"
+      }
+    ]
+  }
+]
