@@ -24,7 +24,7 @@ sitemap:
               <span class="image fit">
                 <a href="{{ file.path | absolute_url }}" title="{{ filename }}">
                   <img src="{{ file.path | absolute_url }}" alt="{{ filename }}" title="" />
-                  <p style="text-align: center"> {{ filename }} </p>
+                  <p> {{ filename }} </p>
                 </a>
               </span>
             </div>
