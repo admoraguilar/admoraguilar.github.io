@@ -9,7 +9,7 @@ current-position-name: "Unity Developer"
 current-company-name: "David Morgan Education"
 current-company-website: "https://dm-ed.com/"
 location: "Manila, Philippines"
-phone: ""
+phone: "+63-915-633-9334"
 email: "admor.aguilar@gmail.com"
 social: [
   {
@@ -76,7 +76,7 @@ experiences: [
 ]
 
 # Interlude
-interlude_header: "HEY THERE!"
+interlude_header: "HELLO!"
 interlude_body: "The name's Admor! (nickname: Water) Learning is my passion especially in the field of computers and game development. It enables me to deliver better solutions for the current project at hand and for the coming ones. I'm always eager to try out new technologies whenever given the opportunity."
 skills: [
   {
@@ -254,3 +254,6 @@ more_projects: [
     links: [ ]
   },
 ]
+
+# Thank You
+thank_you_message: "Hey thanks alot for your time reading this! If you want to contact me you could always do through the ways below! Have a great rest of the day!"

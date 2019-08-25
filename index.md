@@ -136,7 +136,7 @@ with Specialization in Game Design and Development</h2>
   </p>
   <hr/>
 
-  <!-- OLD PROJECTS -->
+  <!-- MORE PROJECTS -->
   <header class="major" id="moreprojects">
     <h1>More Projects</h1>
   </header>
@@ -167,5 +167,10 @@ with Specialization in Game Design and Development</h2>
     </header>
   {% endfor %}
   <hr/>
+
+  <header class="major" id="thankyou">
+    <h1>Thank You</h1>
+    <p>{{site.data.profile.thank_you_message}}</p>
+  </header>
 
 </section>
