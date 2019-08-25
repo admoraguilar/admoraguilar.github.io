@@ -29,7 +29,79 @@ social: [
   }
 ]
 
+# Experience
+experiences: [
+  {
+    title: "Unity Developer",
+    company: "David Morgan Education",
+    company_website: "https://dm-ed.com/",
+    location: "Oxford, United Kingdom",
+    duration: "2018 - Present",
+    header: "Working closely with the development team to create a platform that could teach people to read through various mini-games.",
+    descriptions: [
+      "Creation of different games from scratch using Unity.",
+      "Creation of crucial in-house tools that are helpful for designers and programmers alike.",
+      "Performance optimization so the app can run smoothly on Web and Mobile.",
+      "Reports directly to the Lead Developer and the CEO."
+    ]
+  },
+  {
+    title: "Lead Technical Developer",
+    company: "MyHomespace Inc.",
+    company_website: "https://youtu.be/2NAbet0IDD4",
+    location: "Manila, Philippines",
+    duration: "2017 - 2018",
+    header: "Spearheaded the whole development process of creating a 3D online social media app. Reports directly to the Chairman and CEO.",
+    descriptions: [
+      "Responsible for the creation from scratch to release of its flagship product “Project A” which is a 3D online social mobile app like AltSpaceVR and VRChat. Prototype took 1 month to make. Polish and product changes extended it to 5 months.",
+      "Implemented online connectivity such as full 3D environment navigation, voice chat, user account creation, etc.",
+      "Heavily optimized the app in order for it to work even on low-end iOS and ANDROID hardware.",
+      "Overlooked and taught interns about game development concepts with different skill sets: Art, Programming, Audio, etc.",
+      "Overlooked the creation of assets used in the app: graphics, audio, etc. to make sure that they were game-ready before plugging them in."
+    ]
+  },
+  {
+    title: "Technical Developer Intern",
+    company: "Secret 6",
+    company_website: "https://secret6.com/",
+    location: "Pasig, Philippines",
+    duration: "2017",
+    header: "",
+    descriptions: [
+      "Worked with a team for an unannounced project that's to be deployed on MOBILE platforms.",
+      "Implemented GAMEPLAY, UI, OPTIMIZATIONS, and UX using UNITY.",
+      "Worked closely with the team to put up features as FAST and without compromising on quality as possible.",
+    ]
+  },
+]
 
+# Interlude
+interlude_header: "HEY THERE!"
+interlude_body: "The name's Admor! (nickname: Water) Learning is my passion especially in the field of computers and game development. It enables me to deliver better solutions for the current project at hand and for the coming ones. I'm always eager to try out new technologies whenever given the opportunity."
+skills: [
+  {
+    fontawesome_icon: "fa-users",
+    header: "I shine best with teams, but could also do things alone",
+    body: "I've done couple of projects alone for learning, but through my years of experience I've seen that I've excelled more in teams. Two heads are better than one, bouncing off ideas with a colleague works wonders!",
+    descriptions: [ 
+      "Main Languages: C#, C++",
+      "Sub Languages: HTML5, CSS, JavaScript",
+      "Platforms: Android, iOS, VR/AR, PC",
+      "Frameworks: Unity 3 to 2019, Unreal Engine 4, Jekyll, Photon Engine, Gamesparks, Unity Analytics, Amazon Lightsail",
+      "Version Control: Git",
+      "Project Management: JIRA, Trello, GSuite, Airtable, Slack",
+      "Game Genres: 2D, 3D FPS, 3D TPS, Fixed Camera System (ala Resident Evil 1), Puzzle, Horror"
+    ],
+    additional_info: ""
+  },
+  {
+    fontawesome_icon: "fa-list",
+    header: "I love learning, and working with multiple technologies!",
+    body: "I have projects done for different platforms. I love to tinker around different platforms and see the different nuances they have to develop for them. I'm not a know-it-all, but it's alright because it means there's more to learn!",
+    descriptions: [ ],
+    additional_info: "Back in 2014, I once ported a first-person horror game of mine called 'Lost - A Horror Experience' to the Oculus Rift DK1. At that time VR is still very new, I clearly remember the alien looking case for it! <br> <br> On my free time, I always tend to consume readings and courses about new technologies. Currently I'm learning web development, virtual and augmented reality, and a new language (one used by humans), if I wanna take some break from professional game development."
+  },
+]
 
 # Projects
 unity_editor_tools: [
@@ -125,5 +197,60 @@ projects: [
         url: "https://github.com/admoraguilar/unity_worldofnumbers"
       }
     ]
-  }
+  },
+  {
+    name: "ProjectBREACH",
+    duration: "Oct 2016",
+    youtube_id: "CSTowp-_m4Y",
+    header: "",
+    descriptions: [
+      "Made with Unity 5 and released for PC. Project took 3 months to make with a team of 3 people for our first college thesis.",
+      "Responsible for Core Gameplay, Input, Audio, UI, UX, Tools, and Cinematics Programming.",
+      "Responsible for Character system, Weapon system, Input system, Audio soundscapes, UI systems, Custom sequencer for cutscenes."
+    ],
+    links: [ ]
+  },
+]
+
+more_projects: [
+  {
+    name: "Lost - A Horror Experience",
+    duration: "Nov 2014",
+    youtube_id: "ijfDU799q3g",
+    header: "",
+    descriptions: [
+      "Made with Unity 4 and released for PC. Project was made for fun and was later ported to VR utilizing the Oculus Rift DK1 which was a novel tech at the time.",
+      "Responsible for everything from conceptualization to finish. Project took 3 days to make.",
+    ],
+    links: [ 
+      {
+        name: "Play on Gamejolt!",
+        url: "https://gamejolt.com/games/lost/39859"
+      }
+    ]
+  },
+  {
+    name: "Tower of Hanoi",
+    duration: "Apr 2017",
+    youtube_id: "To7n7LPVTc8",
+    header: "",
+    descriptions: [
+      "A project for fun to practice with Unreal Engine 4 using C++.",
+      "Utilized Unreal's game framework, widgets, sequencer.",
+      "Made an event bus system for a decoupled communication between objects."
+    ],
+    links: [ ]
+  },
+  {
+    name: "Think Out of the Box",
+    duration: "Jul 2015",
+    youtube_id: "ByGisEyetOM",
+    header: "",
+    descriptions: [
+      "Made with Unity 4 with a team of 4 people and released for PC. Project was a reimagined version of our game that won in Global Game Jam Benilde 2015.",
+      "Responsible for programming everything, project took a week to make.",
+      "Responsible for First Person Controller system, Puzzle mechanics, UI systems, Audio Soundscapes."
+    ],
+    links: [ ]
+  },
 ]
