@@ -8,12 +8,28 @@ sitemap:
 
 <section>
   <!-- WELCOME -->
+  <header class="major" id="unityeditortools">
+	  <h1>Unity Editor Tools</h1>
+    <p>
+      Useful editor tools for designers, artists, and programmers-alike.
+    </p>
+  </header>
   <div class="box alt">
     <div class="row 50% uniform">
-      <div class="4u"><span class="image fit"><img src="{{ "/images/unityeditortools/UnityEditorTools-1.gif" | absolute_url }}" alt="" /></span></div>
-			<div class="4u"><span class="image fit"><img src="{{ "/images/unityeditortools/UnityEditorTools-2.gif" | absolute_url }}" alt="" /></span></div>
-      <div class="4u"><span class="image fit"><img src="{{ "/images/unityeditortools/UnityEditorTools-3.gif" | absolute_url }}" alt="" /></span></div>
-			<div class="4u$"><span class="image fit"><img src="/images/unityeditortools/UnityEditorTools-4.gif" alt="" /></span></div>
+      {% for file in site.static_files %}
+        {% if file.path contains "unityeditortools" %}
+          {% assign filenameparts=file.path | split: "/" %}
+					{% assign filename=filenameparts | last | replace: file.extname, "" %}
+            <div class="4u">
+              <span class="image fit">
+                <a href="{{ file.path | absolute_url }}" title="{{ filename }}">
+                  <img src="{{ file.path | absolute_url }}" alt="{{ filename }}" title="" />
+                  <p style="text-align: center"> {{ filename }} </p>
+                </a>
+              </span>
+            </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
   <hr/>
@@ -76,26 +92,6 @@ sitemap:
   </p>
   <hr/>
 
-  <!-- EDUCATION -->
-  <header class="major" id="education">
-    <h1>Education</h1>
-  </header>
-  <header>
-  <h2>Bachelor of Science in Information Technology
-with Specialization in Game Design and Development</h2>
-    <p>
-      <a href="http://benilde.edu.ph/" target="_blank">De La Salle College of Saint Benilde</a> <br> 2013-2017
-    </p>
-  </header>
-  <p>
-    <ul>
-      <li>Honorable mention graduate, Dean’s lister.</li>
-      <li>Attended UNITY, and UNREAL seminars with speakers coming directly from UNITY TECHNOLOGIES, and EPIC GAMES</li>
-      <li>Projects that I've been involved with are usually used to represent the school's program across the country and worldwide. Events such as Electronic Sports and Game Summit, GameOn!, ToyCon, etc.</li>
-    </ul>
-  </p>
-  <hr/>
-
   <!-- PROJECTS -->
   <header class="major" id="projects">
     <h1>Projects</h1>
@@ -115,5 +111,26 @@ with Specialization in Game Design and Development</h2>
       <li>This project required different optimization techniques to run smoothly at 60FPS such as Level-of-Detail(LOD), Baked Lighting, Occlusion Culling, etc.</li>
     </ul>
   </p>
+  <hr/>
+
+  <!-- EDUCATION -->
+  <header class="major" id="education">
+    <h1>Education</h1>
+  </header>
+  <header>
+  <h2>Bachelor of Science in Information Technology
+with Specialization in Game Design and Development</h2>
+    <p>
+      <a href="http://benilde.edu.ph/" target="_blank">De La Salle College of Saint Benilde</a> <br> 2013-2017
+    </p>
+  </header>
+  <p>
+    <ul>
+      <li>Honorable mention graduate, Dean’s lister.</li>
+      <li>Attended UNITY, and UNREAL seminars with speakers coming directly from UNITY TECHNOLOGIES, and EPIC GAMES</li>
+      <li>Projects that I've been involved with are usually used to represent the school's program across the country and worldwide. Events such as Electronic Sports and Game Summit, GameOn!, ToyCon, etc.</li>
+    </ul>
+  </p>
+  <hr/>
 
 </section>
