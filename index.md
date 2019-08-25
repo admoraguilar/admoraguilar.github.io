@@ -76,11 +76,11 @@ sitemap:
   <hr/>
 
   <!-- EDUCATION -->
-   <header class="major" id="education">
-	  <h1>Education</h1>
+  <header class="major" id="education">
+    <h1>Education</h1>
   </header>
-   <header>
-    <h2>Bachelor of Science in Information Technology
+  <header>
+  <h2>Bachelor of Science in Information Technology
 with Specialization in Game Design and Development</h2>
     <p>
       <a href="http://benilde.edu.ph/" target="_blank">De La Salle College of Saint Benilde</a> <br> 2013-2017
@@ -96,6 +96,20 @@ with Specialization in Game Design and Development</h2>
   <hr/>
 
   <!-- PROJECTS -->
-
+  <header class="major" id="projects">
+    <h1>Projects</h1>
+  </header>
+  <header>
+    <h2>[ｄｒｉｖｅ　ニギ゠] Megiapa - ♥u&cym</h2>
+  </header>
+  <blockquote>
+    An animated music video created in 2 weeks from conceptualization to finish for Unity Neon Challenge.
+  </blockquote>
+  <p>
+    <ul>
+      <li>A project for fun, was responsible for everything from conceptualization to finish which was also lightly edited on a video editing software for final touches.</li>
+      <li>This project required different optimization techniques to run smoothly at 60FPS such as Level-of-Detail(LOD), Baked Lighting, Occlusion Culling, etc.</li>
+    </ul>
+  </p>
 
 </section>

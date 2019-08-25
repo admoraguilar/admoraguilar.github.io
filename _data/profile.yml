@@ -13,6 +13,11 @@ phone: ""
 email: "admor.aguilar@gmail.com"
 social: [
   {
+    name: "Gmail",
+    url: "mailto:admor.aguilar@gmail.com",
+    fontawesome_icon: "fa-envelope"
+  },
+  {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/admoraguilar/",
     fontawesome_icon: "fa-linkedin",
