@@ -124,8 +124,11 @@ sitemap:
     <h1>Education</h1>
   </header>
   <header>
-  <h2>Bachelor of Science in Information Technology
-with Specialization in Game Design and Development</h2>
+    <span class="image right">
+      <img src="{{ "images/education/DLS-CSB.png" | absolute_url }}">
+    </span>
+    <h2>Bachelor of Science in Information Technology
+  with Specialization in Game Design and Development</h2>
     <p>
       <a href="http://benilde.edu.ph/" target="_blank">De La Salle College of Saint Benilde</a> <br> 2013-2017
     </p>
