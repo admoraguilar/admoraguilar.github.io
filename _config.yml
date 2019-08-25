@@ -52,7 +52,6 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-html5-youtube
 
 paginate: 6
 paginate_path: "/blog/page:num/"
