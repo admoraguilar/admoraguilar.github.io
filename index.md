@@ -28,6 +28,9 @@ sitemap:
       {% endfor%}
     </div>
   </div>
+  
+  <a href="documents/CV - Aguilar, Admor.pdf" class="button special fit center" id="cv" download>Download Printable CV</a>
+
   <hr/>
 
   <!-- EXPERIENCE -->
