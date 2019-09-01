@@ -4,8 +4,8 @@ site_title: "Admor Aguilar"
 # Personal Information
 name: "Admor Aguilar"
 short_description: "Game Developer (Unity, Unreal)"
-description: "Specializes on PC, Mobile (Android, iOS), and VR/AR. <br> Strengths are in Systems Architecture, Optimization, UI, and Gameplay."
-current-position-name: "Unity Developer"
+description: "Done Projects for <strong>PC, Mobile (Android/iOS), VR/AR. <br/ > Scalable Architectures, Optimization, UI, Gameplay.</strong>"
+current-position-name: "Unity Game Developer"
 current-company-name: "David Morgan Education"
 current-company-website: "https://dm-ed.com/"
 location: "Manila, Philippines"
@@ -26,25 +26,35 @@ social: [
     name: "Github",
     url: "https://github.com/admoraguilar/",
     fontawesome_icon: "fa-github"
+  },
+  {
+    name: "KickResume",
+    url: "https://www.kickresume.com/cv/admoraguilar/",
+    fontawesome_icon: "fa-file-pdf-o"
+  },
+  {
+    name: "CakeResume",
+    url: "https://www.cakeresume.com/admor-aloysious-aguilar",
+    fontawesome_icon: "fa-file-pdf-o"
   }
 ]
 
 # Experience
 experiences: [
   {
-    title: "Unity Developer",
+    title: "Unity Game Developer",
     company: "David Morgan Education",
     company_logo: "/images/companies/DMED.png",
     company_website: "https://dm-ed.com/",
     location: "Oxford, United Kingdom",
     duration: "2018 - Present",
-    header: "Working closely with the development team to create a platform that could teach people to read through various mini-games.",
+    header: "Using <strong>UNITY</strong>, Working closely with the development team to create a platform to teach kids of age 3-6 to read through various mini-games.",
     descriptions: [
-      "Creation of different games from scratch using Unity.",
-      "Creation of crucial in-house tools that are helpful for designers and programmers alike.",
-      "Performance optimization so the app can run smoothly on Web and Mobile.",
-      "Reports directly to the Lead Developer and the CEO."
-    ]
+      "Entrusted by the Lead Developer and the CEO, created crucial and <strong>SCALABLE FRAMEWORKS/TOOLS</strong> to help build mini-games fast and efficiently.",
+      "Analyzed the app to do the <strong>OPTIMIZATIONS</strong> needed for it to run smoothly across <strong>ANDROID</strong> and <strong>iOS</strong>. Greatly increasing the performance by 70%.",
+      "Managing deployment of builds to <strong>Google Play Store</strong>, and <strong>Apple App Store</strong>."
+    ],
+    footer: "Keywords: unity, frameworks, performance, google play store, apple app store, android, ios, C#"
   },
   {
     title: "Lead Technical Developer",
@@ -53,14 +63,14 @@ experiences: [
     company_website: "https://youtu.be/2NAbet0IDD4",
     location: "Manila, Philippines",
     duration: "2017 - 2018",
-    header: "Spearheaded the whole development process of creating a 3D online social media app. Reports directly to the Chairman and CEO.",
+    header: "Using <strong>UNITY</strong>, Responsible for the creation from scratch of their 3D online social mobile app in resemblance of AltSpaceVR and VRChat. It took 1 month to make the prototype, with product changes and polishes extending it to 5 months.",
     descriptions: [
-      "Responsible for the creation from scratch to release of its flagship product “Project A” which is a 3D online social mobile app like AltSpaceVR and VRChat. Prototype took 1 month to make. Polish and product changes extended it to 5 months.",
-      "Implemented online connectivity such as full 3D environment navigation, voice chat, user account creation, etc.",
-      "Heavily optimized the app in order for it to work even on low-end iOS and ANDROID hardware.",
-      "Overlooked and taught interns about game development concepts with different skill sets: Art, Programming, Audio, etc.",
-      "Overlooked the creation of assets used in the app: graphics, audio, etc. to make sure that they were game-ready before plugging them in."
-    ]
+      "Implemented <strong>ONLINE</strong> connectivity with <strong>full 3D environment navigation</strong>, <strong>voice chat</strong>, and <strong>user account creation</strong>.",
+      "Heavily <strong>OPTIMIZED</strong> the app for it to work even on <strong>low-end iOS</strong> and <strong>ANDROID</strong> hardware.",
+      "Overlooked and taught interns with different skillsets (Art, Programming, Audio) about the game development process.",
+      "Overlooked the creation of assets used in the app to make sure that they were game-ready before using them."
+    ],
+    footer: "Keywords: unity, online, 3D, backend, optimization, ios, android, team management, C#"
   },
   {
     title: "Technical Developer Intern",
@@ -71,38 +81,38 @@ experiences: [
     duration: "2017",
     header: "",
     descriptions: [
-      "Worked with a team for an unannounced project that's to be deployed on MOBILE platforms.",
-      "Implemented GAMEPLAY, UI, OPTIMIZATIONS, and UX using UNITY.",
-      "Worked closely with the team to put up features as FAST and without compromising on quality as possible.",
-    ]
+      "Worked with a team of 15 people on a project for <strong>ANDROID</strong> and <strong>iOS</strong>.",
+      "Created multiple mini-games from scratch (<strong>GAMEPLAY</strong>, <strong>UI</strong>, <strong>OPTIMIZATIONS</strong>, and <strong>UX</strong>) using <strong>UNITY</strong>."
+    ],
+    footer: "Keywords: unity, android, ios, gameplay, ui"
   },
 ]
 
 # Interlude
 interlude_header: "HELLO!"
-interlude_body: "The name's Admor! (nickname: Water) Learning is my passion especially in the field of computers and game development. It enables me to deliver better solutions for the current project at hand and for the coming ones. I'm always eager to try out new technologies whenever given the opportunity."
+interlude_body: "The name's Admor! Learning is my passion especially in the field of computers and game development. It enables me to deliver better solutions for the current project at hand and for the coming ones. I'm always eager to try out new technologies whenever given the opportunity."
 skills: [
   {
     fontawesome_icon: "fa-users",
     header: "I shine best with teams, but could also do things alone",
     body: "I've done couple of projects alone for learning, but through my years of experience I've seen that I've excelled more in teams. Two heads are better than one, bouncing off ideas with a colleague works wonders!",
     descriptions: [ 
-      "Main Languages: C#, C++",
-      "Sub Languages: HTML5, CSS, JavaScript",
-      "Platforms: Android, iOS, VR/AR, PC",
-      "Frameworks: Unity 3 to 2019, Unreal Engine 4, Jekyll, Photon Engine, Gamesparks, Unity Analytics, Amazon Lightsail",
-      "Version Control: Git",
-      "Project Management: JIRA, Trello, GSuite, Airtable, Slack",
-      "Game Genres: 2D, 3D FPS, 3D TPS, Fixed Camera System (ala Resident Evil 1), Puzzle, Horror"
+      "<strong>Main Programming Languages</strong>: C#, C++",
+      "<strong>Sub Programming Languages</strong>: HTML5, CSS, JavaScript",
+      "<strong>Platforms</strong>: PC, Android, iOS, VR/AR",
+      "<strong>Programming Patterns</strong>: MVC, Dependency Injection, ECS, Component-Based, Strategy, Singleton",
+      "<strong>Frameworks and Tools</strong>: Git, SourceTree, Unity 3 to 2019, Unreal Engine 4, Jekyll, Photon Engine, Gamesparks, Unity Services, Amazon Lightsail",
+      "<strong>Project Management</strong>: JIRA, Trello, GSuite, Airtable, Slack",
+      "<strong>Game Genres</strong>: 2D, 3D FPS, 3D TPS, Hypercasual, Fixed Camera System (ala Resident Evil), Puzzle, Horror"
     ],
     additional_info: ""
   },
   {
     fontawesome_icon: "fa-list",
     header: "I love learning, and working with multiple technologies!",
-    body: "I have projects done for different platforms. I love to tinker around different platforms and see the different nuances they have to develop for them. I'm not a know-it-all, but it's alright because it means there's more to learn!",
+    body: "I have projects done for different platforms. I love to tinker around different platforms and see the different nuances they have to develop for them. I'm not a know-it-all, but it's alright because it means there's always more to learn!",
     descriptions: [ ],
-    additional_info: "Back in 2014, I once ported a first-person horror game of mine called 'Lost - A Horror Experience' to the Oculus Rift DK1. At that time VR is still very new, I clearly remember the alien looking case for it! <br> <br> On my free time, I always tend to consume readings and courses about new technologies. Currently I'm learning web development, virtual and augmented reality, and a new language (one used by humans), if I wanna take some break from professional game development."
+    additional_info: "Back in 2014, I once ported a first-person horror game of mine called 'Lost - A Horror Experience' to the Oculus Rift DK1. At that time VR is still very new, I clearly remember the alien looking case for it! <br> <br> On my free time, I always tend to consume readings and courses about new technologies. Currently I'm learning web development, virtual and augmented reality, and the Japanese language, if I wanna take some break from professional game development."
   },
 ]
 
@@ -163,7 +173,7 @@ projects: [
         url: "https://play.google.com/store/apps/details?id=com.MyHomespaceInc.A"
       },
       {
-        name: "Source Code on GitHub",
+        name: "Source on GitHub",
         url: "https://github.com/wishfuldroplet/unity-projecta"
       }
     ]
@@ -180,7 +190,7 @@ projects: [
     ],
     links: [
       {
-        name: "Source Code on GitHub",
+        name: "Source on GitHub",
         url: "https://github.com/wishfuldroplet/ue4_afterimage2"
       }
     ]
@@ -196,7 +206,7 @@ projects: [
     ],
     links: [
       {
-        name: "Source Code on GitHub",
+        name: "Source on GitHub",
         url: "https://github.com/admoraguilar/unity_worldofnumbers"
       }
     ]

@@ -28,11 +28,20 @@ sitemap:
       {% endfor%}
     </div>
   </div>
-  
-  <a href="documents/CV - Aguilar, Admor.pdf" class="button special fit center" id="cv" download>Download Printable CV</a>
-
   <hr/>
 
+  <!-- CVs -->
+  <header class="major" id="cv">
+    <h1>CV</h1>
+  </header>
+  <ul class="actions fit" >
+    <li><a href="https://www.kickresume.com/cv/admoraguilar/" class="button special fit center" target="_blank">CV on KickResume</a></li>
+    <li><a href="https://www.cakeresume.com/admor-aloysious-aguilar" class="button special fit center" target="_blank">CV on CakeResume</a></li>
+  </ul>
+
+  <a href="documents/CV - Aguilar, Admor.pdf" class="button special fit center" download>Download Printable CV</a>
+  <hr/>
+  
   <!-- EXPERIENCE -->
   <header class="major" id="experience">
 	  <h1>Experience</h1>
@@ -59,6 +68,9 @@ sitemap:
         {% endfor %}
       </ul>
     </p>
+    {% if experience.footer != "" %}
+      <p>{{experience.footer}}</p>
+    {% endif %}
   {% endfor %}
   <hr/>
 
@@ -130,17 +142,17 @@ sitemap:
     <span class="image right">
       <img src="{{ "images/education/DLS-CSB.png" | absolute_url }}">
     </span>
-    <h2>Bachelor of Science in Information Technology
-  with Specialization in Game Design and Development</h2>
+    <h2>BSc Information Technology Specialized in Game Design and Development</h2>
     <p>
       <a href="http://benilde.edu.ph/" target="_blank">De La Salle College of Saint Benilde</a> <br> 2013-2017
     </p>
   </header>
   <p>
     <ul>
-      <li>Honorable mention graduate, Dean’s lister.</li>
-      <li>Attended UNITY, and UNREAL seminars with speakers coming directly from UNITY TECHNOLOGIES, and EPIC GAMES</li>
-      <li>Projects that I've been involved with are usually used to represent the school's program across the country and worldwide. Events such as Electronic Sports and Game Summit, GameOn!, ToyCon, etc.</li>
+      <li>Created personal projects that were eventually used by the school to market the course across and outside the country.</li>
+      <li>Attended <strong>UNITY</strong>, and <strong>UNREAL</strong> seminars with speakers coming directly from <strong>Unity Technologies</strong> and <strong>Epic Games</strong>.</li>
+      <li>Consistent Global Game Jam participant, a 3-day event usually held around Q1 of the year.</li>
+      <li>Honorable Mention Graduate, Consistent Dean's Lister.</li>
     </ul>
   </p>
   <hr/>

@@ -84,6 +84,25 @@
 			padding: 0 2.75rem;
 		}
 
+		&.fittext {
+			display: block;
+			margin: 0 0 (_size(element-margin) * 0.5) 0;
+			width: 100%;
+			height: 3.5rem;
+			white-space: normal;
+			line-height: 1.5rem;
+			padding: 0 1.5rem;
+
+			// display: block;
+			// margin: 0 0 (_size(element-margin) * 0.5) 0;
+			// font-size: 0.8rem;
+			// height: 3.5rem + auto;
+			// width: 100%;
+			// line-height: 1.3rem;
+			// padding: 0 1.5rem;
+			// white-space: normal;
+		}
+
 		@include breakpoint(medium) {
 			font-size: 0.9rem;
 			height: 3.25rem;
