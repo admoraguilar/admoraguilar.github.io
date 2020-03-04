@@ -42,12 +42,12 @@ social: [
 # Experience
 experiences: [
   {
-    title: "Unity Game Developer",
+    title: "Lead Unity Game Developer",
     company: "David Morgan Education",
     company_logo: "/images/companies/DMED.png",
     company_website: "https://dm-ed.com/",
     location: "Oxford, United Kingdom",
-    duration: "2018 - Present",
+    duration: "2019 - Present",
     header: "Using <strong>UNITY</strong>, Working closely with the development team to create a platform to teach kids of age 3-6 to read through various mini-games.",
     descriptions: [
       "Entrusted by the Lead Developer and the CEO, created crucial and <strong>SCALABLE FRAMEWORKS/TOOLS</strong> to help build mini-games fast and efficiently.",
@@ -55,6 +55,17 @@ experiences: [
       "Managing deployment of builds to <strong>Google Play Store</strong>, and <strong>Apple App Store</strong>."
     ],
     footer: "Keywords: unity, frameworks, performance, google play store, apple app store, android, ios, C#"
+  },
+  {
+    title: "Unity Game Developer",
+    company: "David Morgan Education",
+    company_logo: "/images/companies/DMED.png",
+    company_website: "https://dm-ed.com/",
+    location: "Oxford, United Kingdom",
+    duration: "2018 - 2019",
+    header: "",
+    descriptions: [],
+    footer: ""
   },
   {
     title: "Lead Technical Developer",
