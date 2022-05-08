@@ -73,7 +73,13 @@ experiences: [
     location: "Paris, France",
     duration: "2021 - Present",
     header: "Using <strong>UNITY</strong>, focused on optimizing multiple games for <strong>low-end hardware</strong> so that they can run as fast and stable as possible. .",
-    footer: "Keywords: unity, frameworks, performance, google play store, apple app store, android, ios, C#"
+    descriptions: [
+      "<strong>Being data-driven by the usage and analyzation of big data across 100+ games</strong> in order to guide the direction of a product for maximum business impact.",
+      "<strong>Conducting AB Tests on games with large playerbases</strong> that can reach up to <strong>1 million DAU and above.</strong>",
+      "As Voodoo is a publisher, <strong>work with multiple external studios</strong> in order to advise them on the right features or steps to take to maximize their games potential on the mobile market.",
+      "<strong>Work with multiple internal teams for researching and developing</strong> technical solutions that can lead to big business results."
+    ],
+    footer: "Keywords: unity, analytics, big data, ab tests, large playerbase, performance, android, ios, publishing, C#, hypercasual"
   },
   {
     title: "Lead Unity Game Developer",
@@ -85,6 +91,7 @@ experiences: [
     header: "Using <strong>UNITY</strong>, Working closely with the development team to create a platform to teach kids of age 3-6 to read through various mini-games.",
     descriptions: [
       "Entrusted by the Team Lead and the CEO, created crucial and <strong>SCALABLE FRAMEWORKS/TOOLS</strong> to help build mini-games fast and efficiently.",
+      "<strong>Lead a team of 3 developers by handling the direction of the team for maximum output, leading the technical direction of the product, enforcing AGILE practices, conducting performance reviews, and communicating about timelines and ideations to the CEO and the Team Lead.</strong>",
       "Analyzed the app to do the <strong>OPTIMIZATIONS</strong> needed for it to run smoothly across <strong>ANDROID</strong> and <strong>iOS</strong>. Greatly increasing the performance by 70%.",
       "Managing deployment of builds to <strong>Google Play Store</strong>, and <strong>Apple App Store</strong>."
     ],
