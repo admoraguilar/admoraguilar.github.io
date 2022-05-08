@@ -43,23 +43,23 @@ social: [
 unity_editor_tools: [
   {
     name: "Serializable Conditions",
-    image_path: "/images/unityeditortools/SerializableConditions.gif",
+    image_path: "https://media.githubusercontent.com/media/admoraguilar/admoraguilar.github.io/master/images/unityeditortools/SerializableConditions.gif",
   },
   {
     name: "Adaptiveness Simulator",
-    image_path: "/images/unityeditortools/AdaptivenessSimulator.gif",
+    image_path: "https://media.githubusercontent.com/media/admoraguilar/admoraguilar.github.io/master/images/unityeditortools/AdaptivenessSimulator.gif",
   },
   {
     name: "Complexity Simulator",
-    image_path: "/images/unityeditortools/ComplexitySimulator.gif",
+    image_path: "https://media.githubusercontent.com/media/admoraguilar/admoraguilar.github.io/master/images/unityeditortools/ComplexitySimulator.gif",
   },
   {
     name: "State Event Trigger",
-    image_path: "/images/unityeditortools/StateEventTrigger.gif",
+    image_path: "https://media.githubusercontent.com/media/admoraguilar/admoraguilar.github.io/master/images/unityeditortools/StateEventTrigger.gif",
   },
   {
     name: "Serializable Interfaces",
-    image_path: "/images/unityeditortools/SerializableInterfaces.gif",
+    image_path: "https://media.githubusercontent.com/media/admoraguilar/admoraguilar.github.io/master/images/unityeditortools/SerializableInterfaces.gif",
   },
 ]
 
