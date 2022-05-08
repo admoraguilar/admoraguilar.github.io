@@ -239,8 +239,6 @@ projects: [
         title: "View Backend (ASP.NET) + Scraper Source on GitHub",
         url: "https://github.com/admoraguilar/virtualhole-dotnet/tree/develop"
       },
-    ],
-    links2: [
       {
         title: "View Old Client (Unity) Source on GitHub",
         url: "https://github.com/admoraguilar/virtualhole-unity/tree/develop"
@@ -249,7 +247,7 @@ projects: [
         title: "Download APK",
         url: "https://media.githubusercontent.com/media/admoraguilar/admoraguilar.github.io/master/documents/virtualhole-0.4.apk"
       },
-    ]
+    ],
   },
   {
     title: "All Aboard - Educational Reading App / Poop Deck",

@@ -128,24 +128,12 @@ sitemap:
         </ul>
       </p>
       {% if project.links.size > 0 %}
-        <ul class="actions fit">
-          {% for link in project.links %}
-              <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.title}}</a></li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-      {% if project.links2.size > 0 %}
-        <ul class="actions fit">
-          {% for link in project.links2 %}
-              <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.title}}</a></li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-      {% if project.links3.size > 0 %}
-        <ul class="actions fit">
-          {% for link in project.links3 %}
-              <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.title}}</a></li>
-          {% endfor %}
+        <ul class="fit">
+          <span style="list-style-type: none;">
+            {% for link in project.links %}
+                <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.title}}</a></li>
+            {% endfor %}
+          </span>
         </ul>
       {% endif %}
     </header>
