@@ -1,7 +1,7 @@
 # Site
 title:              Admor Aguilar
 bio:                'Game Developer (Unity, Unreal)'
-description:        "Specializes on PC, Mobile (Android, iOS), and VR/AR. <br> Strengths are in Systems Architecture, Optimization, UI, and Gameplay"
+description:        "Specializes on PC, Mobile (Android, iOS), and VR/AR. <br> Scalable Architectures, Optimization, UI, and Gameplay"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -13,7 +13,7 @@ disqus_shortname:   default
 analytics-id:       "default"
 
 # Other
-background_image:   /images/bg.jpg
+background_image:   /images/bg.gif
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
 slapform_thankyou_page: /thank-you
 

@@ -5,11 +5,11 @@ site_title: "Admor Aguilar"
 name: "Admor Aguilar"
 short_description: "Game Developer (Unity, Unreal)"
 description: "Done Projects for <strong>PC, Mobile (Android/iOS), VR/AR. <br/ > Scalable Architectures, Optimization, UI, Gameplay.</strong>"
-current-position-name: "Unity Game Developer"
-current-company-name: "David Morgan Education"
-current-company-website: "https://dm-ed.com/"
-location: "Manila, Philippines"
-phone: "+63-915-633-9334"
+current-position-name: "Game Developer"
+current-company-name: "Voodoo.io"
+current-company-website: "https://www.voodoo.io/"
+location: "Paris, France 🇫🇷"
+phone: "+33 6 33 29 13 89"
 email: "admor.aguilar@gmail.com"
 social: [
   {
@@ -39,15 +39,49 @@ social: [
   }
 ]
 
+# Projects
+unity_editor_tools: [
+  {
+    name: "Serializable Conditions",
+    image_path: "/images/unityeditortools/SerializableConditions.gif",
+  },
+  {
+    name: "Adaptiveness Simulator",
+    image_path: "/images/unityeditortools/AdaptivenessSimulator.gif",
+  },
+  {
+    name: "Complexity Simulator",
+    image_path: "/images/unityeditortools/ComplexitySimulator.gif",
+  },
+  {
+    name: "State Event Trigger",
+    image_path: "/images/unityeditortools/StateEventTrigger.gif",
+  },
+  {
+    name: "Serializable Interfaces",
+    image_path: "/images/unityeditortools/SerializableInterfaces.gif",
+  },
+]
+
 # Experience
 experiences: [
+  {
+    title: "Game Developer",
+    company: "Voodoo",
+    company_logo: "/images/companies/voodoo.jfif",
+    company_website: "https://www.voodoo.io/",
+    location: "Paris, France",
+    duration: "2021 - Present",
+    header: "Using <strong>UNITY</strong>, focused on optimizing multiple games for <strong>low-end hardware</strong> so that they can run as fast and stable as possible. .",
+    footer: "Keywords: unity, frameworks, performance, google play store, apple app store, android, ios, C#"
+  },
   {
     title: "Lead Unity Game Developer",
     company: "David Morgan Education",
     company_logo: "/images/companies/DMED.png",
     company_website: "https://dm-ed.com/",
     location: "Oxford, United Kingdom",
-    duration: "2019 - Present",
+    duration: "2019 - 2021",
     header: "Using <strong>UNITY</strong>, Working closely with the development team to create a platform to teach kids of age 3-6 to read through various mini-games.",
     descriptions: [
       "Entrusted by the Team Lead and the CEO, created crucial and <strong>SCALABLE FRAMEWORKS/TOOLS</strong> to help build mini-games fast and efficiently.",
@@ -106,15 +140,21 @@ skills: [
   {
     fontawesome_icon: "fa-users",
     header: "I shine best with teams, but could also do things alone",
-    body: "I've done couple of projects alone for learning, but through my years of experience I've seen that I've excelled more in teams. Two heads are better than one, bouncing off ideas with a colleague works wonders!",
+    body: "I've done couple of projects alone for learning, but through my years of experience I've seen that I've excelled more in teams. Two heads are better than one, bouncing off ideas with a colleague works wonders! Here's my current tech stack:",
     descriptions: [ 
-      "<strong>Main Programming Languages</strong>: C#, C++",
-      "<strong>Sub Programming Languages</strong>: HTML5, CSS, JavaScript",
-      "<strong>Platforms</strong>: PC, Android, iOS, VR/AR",
-      "<strong>Programming Patterns</strong>: MVC, Dependency Injection, ECS, Component-Based, Strategy, Singleton",
-      "<strong>Frameworks and Tools</strong>: Git, SourceTree, Unity 3 to 2019, Unreal Engine 4, Jekyll, Photon Engine, Gamesparks, Unity Services, Amazon Lightsail",
-      "<strong>Project Management</strong>: JIRA, Trello, GSuite, Airtable, Slack",
-      "<strong>Game Genres</strong>: 2D, 3D FPS, 3D TPS, Hypercasual, Fixed Camera System (ala Resident Evil), Puzzle, Horror"
+      "<strong>🎮 Game Engines</strong>: Unity, Unreal",
+      "<strong>📦 Platforms</strong>: PC, Android, iOS, VR/AR",
+      "<strong>🎴 Frameworks</strong>: .NET, ASP.NET, Flutter, React, NodeJS, Photon, Jekyll",
+      "<strong>⚙ Services</strong>: Amazon AWS, Google GCP, Microsoft Azure",
+      "<strong>👨‍💻 Language</strong>: C#, C++, Dart, JavaScript, HTML, CSS",
+      "<strong>🔧 Tools</strong>: SourceTree, Git, Amazon Lightsail",
+      "<strong>📂 Database</strong>: NoSQL (MongoDB, Amazon DynamoDB)",
+      "<strong>🚚 CDN:</strong>: Bunny, Amazon Cloudfront",
+      "<strong>🎴 Frameworks</strong>: .NET, ASP.NET, Flutter, React, NodeJS, Photon, Jekyll",
+      "<strong>💵 Monetizations</strong>: Google AdMob",
+      "<strong>🗃 Project Management</strong>: Notion, Jira, Trello, GSuite, Airtable, Slack",
+      "<strong>🛠 Programming Patterns</strong>: MVC, Dependency Injection, ECS, Component-Based, Strategy, Singleton",
+      "<strong>🕹 Game Genres</strong>: 2D, 3D FPS, 3D TPS, Hypercasual, Fixed Camera System (ala Resident Evil), Puzzle, Horror"
     ],
     additional_info: ""
   },
@@ -123,114 +163,209 @@ skills: [
     header: "I love learning, and working with multiple technologies!",
     body: "I have projects done for different platforms. I love to tinker around different platforms and see the different nuances they have to develop for them. I'm not a know-it-all, but it's alright because it means there's always more to learn!",
     descriptions: [ ],
-    additional_info: "Back in 2014, I once ported a first-person horror game of mine called 'Lost - A Horror Experience' to the Oculus Rift DK1. At that time VR is still very new, I clearly remember the alien looking case for it! <br> <br> On my free time, I always tend to consume readings and courses about new technologies. Currently I'm learning web development, virtual and augmented reality, and the Japanese language, if I wanna take some break from professional game development."
-  },
-]
-
-# Projects
-unity_editor_tools: [
-  {
-    name: "Serializable Conditions",
-    image_path: "/images/unityeditortools/SerializableConditions.gif",
-  },
-  {
-    name: "Adaptiveness Simulator",
-    image_path: "/images/unityeditortools/AdaptivenessSimulator.gif",
-  },
-  {
-    name: "Complexity Simulator",
-    image_path: "/images/unityeditortools/ComplexitySimulator.gif",
-  },
-  {
-    name: "State Event Trigger",
-    image_path: "/images/unityeditortools/StateEventTrigger.gif",
-  },
-  {
-    name: "Serializable Interfaces",
-    image_path: "/images/unityeditortools/SerializableInterfaces.gif",
+    additional_info: "❔ A little trivia: <br><br> Back in 2014, I once ported a first-person horror game of mine called 'Lost - A Horror Experience' to the Oculus Rift DK1. At that time VR is still very new, I clearly remember the alien looking case for it! <br> <br> On my free time, I always tend to consume readings and courses about new technologies. Currently I'm learning web development, virtual and augmented reality, and the Japanese language, if I wanna take some break from professional game development."
   },
 ]
 
 projects: [
-  {
-    name: "[ｄｒｉｖｅ　ニギ゠] Megiapa - ♥u&cym",
-    duration: "Jan 2018",
-    youtube_id: "hTasWq0j_tw",
-    header: "An animated music video created in 2 weeks from conceptualization to finish for Unity Neon Challenge.",
+   {
+    title: "CHAOS",
+    subtitle: "Solo Personal - 2022",
+    youtube_id: "GcLik1-jlx8",
+    header: "A currently on-going passion project done in <strong>UNITY</strong> meant to explore new ways of making a <strong>modular codebase.</strong>",
     descriptions: [
-      "A project for fun, was responsible for everything from conceptualization to finish which was also lightly edited on a video editing software for final touches.",
-      "This project required different optimization techniques to run smoothly at 60FPS such as Level-of-Detail(LOD), Baked Lighting, Occlusion Culling, etc."
+      "This project is <strong>OPEN-SOURCE</strong>, feel free to dive through the code below.",
+      "Meant for mobile devices: <strong>Android and iOS.</strong>",
+      "Done in: <strong>Unity, C#</strong>",
+      "The project was done <strong>from scratch meaning from conceptualization, prototypes</strong>, and then to what it is now.",
+      "It was meant to create a simple game in my past time, but <strong>mostly to enhance my skills on creating simple yet really modular systems.</strong>",
+      "At the moment, the game has many systems ranging from a <strong>Behavior Tree-like to handle the game flow, Data Serialization with Versioning, Weapon System, Inventory System, Upgrades System</strong>, and many more...",
+      "Other systems planned are <strong>Accounts (for Cloud Save), Custom Online Leaderboards (with its own backend), Game Economy, Shop, etc..</strong>",
     ],
     links: [
       {
-        name: "View on Unity Connect",
-        url: "https://connect.unity.com/p/drive-nigi"
+        title: "View Source on GitHub",
+        url: "https://github.com/admoraguilar/chaos-unity/tree/develop"
       },
     ]
   },
   {
-    name: "Homespace - Demo",
-    duration: "Dec 2017 - May 2018",
-    youtube_id: "2NAbet0IDD4",
-    header: "An animated music video created in 2 weeks from conceptualization to finish for Unity Neon Challenge.",
+    title: "Mob Control",
+    subtitle: "Voodoo.io - 2021",
+    youtube_id: "i0vvJlm30Gw",
+    header: "A hypercasual game coming from Voodoo. My contribution was focused on optimizing the game for lower-end devices.",
     descriptions: [
-      "Made with Unity 2018 and released for Android devices. It's an online-only app that features real-time 3D movement, user account management, and cloud save.",
-      "Responsible for its creation from scratch to release, did everything except for the conceptualization of the product as this was done for a tech startup and not a personal project.",
-      "This required a lot of optimizations from the app's startup to long up-times as mobile devices are generally weaker than PCs."
+      "This project is for mobile devices: <strong>Android and iOS.</strong>",
+      "Done in: Unity, C#",
+      "My main focus here was to <strong>optimize the game for lower-end mobile devices</strong> as it was lagging heavily especially on Android.",
+      "I've applied are <strong>time-slicing the behaviors</strong> of the 'mobs' so that we only process a certain amount of mobs per frame instead of processing them all at once everytime.",
+      "I've also <strong>changed the mobs from 3D skinned meshes to sprites</strong> when there's a low-end device in order to save on rendering performance.",
+      "The game was also using a realtime water shader before for the background, what I did instead is to just swap it with a <strong>material with a texture that's scrolling</strong>. This saves a lot of rendering performance and I think we don't need realistic water anyway as the water isn't moving much in the background."
     ],
     links: [
       {
-        name: "Google Play Store",
-        url: "https://play.google.com/store/apps/details?id=com.MyHomespaceInc.A"
+        title: "Get on Google Play Store",
+        url: "https://play.google.com/store/apps/details?id=com.vincentb.MobControl"
       },
       {
-        name: "Source on GitHub",
-        url: "https://github.com/wishfuldroplet/unity-projecta"
+        title: "Get on Apple App Store",
+        url: "https://apps.apple.com/us/app/mob-control/id1562817072"
+      },
+    ]
+  },
+  {
+    title: "VirtualHole - A hololive Fan Mobile App",
+    subtitle: "Solo Personal - 2020",
+    youtube_id: "5XEfB4sA-GE",
+    header: "A hololive fan mobile app done in Flutter, I did it in Unity before...",
+    descriptions: [
+      "This project is <strong>OPEN-SOURCE</strong>, feel free to dive through the code below.",
+      "Meant for mobile devices: <strong>Android and iOS.</strong>",
+      "Done in: <strong>Flutter, Dart, C#, ASP.NET, MongoDB, Bunny CDN</strong>",
+      "Previously done in: <strong>Unity, C#, Amazon DynamoDB, Amazon Cloudfront</strong>",
+      "This was a passion project back when I was a huge fan of hololive VTubers, and so I thought about making an app solely for viewing the different VTubers of hololive.",
+      "Previously after I did the <strong>concept and UI mockups</strong> for the app, I've decided to use <strong>Unity</strong> to build the app. Unfortunately, as I continue to build, the more I realize that Unity is just really an overkill for this type of app as I ran into many issues. First is that <strong>Unity UI doesn't feel native, and also doesn't perform like native</strong> which makes sense. I've ran into issues where as I continue to use the app my phone just heats up really bad, and the experience is just laggy as I scroll through many videos. That's when I decided to use another framework instead and that was <strong>Flutter; which I learned from scratch</strong> just to create this project.",
+      "<strong>Learning Flutter meant I need to learn Dart</strong>, the language it uses for scripting. As I build the app in Flutter, all the issues I've encountered in Unity were solved resulting into the app that you're seeing on the video.",
+      "It's also worth to know that <strong>this app is connected to a backend</strong>, I've <strong>built a backend with MongoDB as its database (to store video and VTuber metadata), and Bunny as it's CDN for some images and dynamic data in the app</strong>. I've then deployed this backend to a VPS that I own.",
+      "Aside from the backend, I've also <strong>created a scraper which scrapes VTuber data</strong> (video metadata: live videos, scheduled videos, archives, etc., creator metadata: VTuber profile picture, social media numbers like YouTube views count) from various sources. This scraper runs on my VPS 24/7 gathering and pushing data to my backend server.",
+      "This app is actually <strong>still live right now and still connected to my backend server</strong>, and you can use it by installing the APK for it on your Android device for your own testing. The only problem is that I stopped the scraper, but I can bring it back again if I want to."
+    ],
+    links: [
+      {
+        title: "View Client (Flutter) Source on GitHub",
+        url: "https://github.com/admoraguilar/virtualhole_flutter/tree/flutter-upgrade-2.10.5"
+      },
+      {
+        title: "View Backend (ASP.NET) + Scraper Source on GitHub",
+        url: "https://github.com/admoraguilar/virtualhole-dotnet/tree/develop"
+      },
+    ],
+    links2: [
+      {
+        title: "View Old Client (Unity) Source on GitHub",
+        url: "https://github.com/admoraguilar/virtualhole-unity/tree/develop"
+      },
+      {
+        title: "Download APK",
+        url: "documents/virtualhole-0.4.apk"
+      },
+    ]
+  },
+  {
+    title: "All Aboard - Educational Reading App / Poop Deck",
+    subtitle: "David Morgan Education - 2018 - 2020",
+    youtube_id: "psTFKV4hXXU",
+    header: "An educational app meant to teach kids how to read through a series of curated mini-games per daily lesson.",
+    descriptions: [
+      "Meant for mobile devices: <strong>Android and iOS.</strong>",
+      "Done in: <strong>Unity, C#, Unity Analytics</strong>",
+      "For this project, I was the <strong>tech lead for the games-side</strong>. I <strong>laid down the architecture for the minigames so that creating and updating minigames is easy and modular</strong>. This meant creating the specs and foundations for the macro-architecture of the games down to some foundational tools such as a Behaviour tree-like system to handle flow, different UI systems, scoring, etc.",
+      "As I was the <strong>tech lead, I've also handled 3 developers</strong> who we're working with me on the games side. <strong>My management style is autonomous</strong>, meaning I let them pick what they think is making sense they should work on and also advise them on how to approach certain problems. Aside from that, I also handled our project management tools to ensure that they can just focus on doing the specific features, bugs, or tasks they're tackling on. Other <strong>responsibilities of mine as a tech lead are communicating to the CEO about timelines and ideations, conducting performance reviews, and leading the technical direction of the product.</strong>"
+    ],
+    links: [
+      {
+        title: "Get on Google Play Store",
+        url: "https://play.google.com/store/apps/details?id=com.allaboardlearning.allaboard&hl=en_US&gl=US"
+      },
+    ]
+  },
+  {
+    title: "Homespace - Demo / Project A",
+    subtitle: "MyHomespace Inc. - Dec 2017 - May 2018",
+    youtube_id: "2NAbet0IDD4",
+    header: "A metaverse-like 3D online app, before metaverses weren't still a cool buzzword from Facebook (or rather Meta).",
+    descriptions: [
+      "This project is <strong>OPEN-SOURCE</strong>, feel free to dive through the code below.",
+      "Meant for mobile devices: <strong>Android and iOS.</strong>",
+      "Done in: <strong>Unity 2018, Photon Unity Networking, Gamesparks Backend (Accounts), Agora Voice Chat</strong>",
+      "It's an <strong>online-only app that features real-time 3D movement, user account management, cloud save, and voice chat.</strong>",
+      "I was responsible for its creation from scratch to release, did everything except for the conceptualization of the product as this was done for a tech startup and not a personal project.",
+      "This <strong>required a lot of optimizations from the app's startup to long up-times as mobile devices are generally weaker than PCs.</strong>",
+      "The app's backend services are already taken down, and gamesparks is also shutting down too, but I did a mock of the backend for the app and so now it still can work even offline for a little bit of tour. UI scaling might be broken though for newer devices."
+    ],
+    links: [
+      {
+        title: "View Source on GitHub",
+        url: "https://github.com/admoraguilar/projecta-unity/tree/develop"
+      },
+      {
+        title: "Download APK",
+        url: "documents/a-0.06.apk"
+      },
+    ]
+  },
+  {
+    title: "OilMan!",
+    subtitle: "Voodoo.io - 2021",
+    youtube_id: "OLuLSiyFAOY",
+    header: "A hypercasual game coming from Voodoo. My contribution was focused on optimizing the game for lower-end devices.",
+    descriptions: [
+      "This project is for mobile devices: <strong>Android and iOS.</strong>",
+      "Done in: <strong>Unity, C#</strong>",
+      "My main focus here was to <strong>optimize the game for lower-end mobile devices</strong> as it was lagging heavily especially on Android.",
+      "I've applied optimization techniques such as <strong>dynamic and static batching</strong>. Also cleaned up the project by removing post-processing that was present but isn't actually used.",
+      "I've also optimized a lot of game-specific code to use as less resources as possible.",
+      "All this effort brought the game <strong>from 7-12FPS to a stable 30-45 FPS even on low-end.</strong>"
+    ],
+    links: [
+      {
+        title: "Get on Google Play Store",
+        url: "https://play.google.com/store/apps/details?id=com.lilacwoodgames.oilman"
+      },
+      {
+        title: "Get on Apple App Store",
+        url: "https://apps.apple.com/us/app/oilman/id1585980805"
+      },
+    ]
+  },
+  {
+    title: "World of Numbers",
+    subtitle: "Solo Personal - Apr 2018",
+    youtube_id: "2upmXAZFl_s",
+    header: "",
+    descriptions: [
+      "This project is <strong>OPEN-SOURCE</strong>, feel free to dive through the code below.",
+      "Meant for mobile devices: <strong>Android and iOS.</strong>",
+      "Done in: <strong>Unity 2018, Gamesparks Backend (Accounts, and Leaderboard)</strong>",
+      "Features <strong>online connectivity such as global leaderboards, user account management, and cloud save.</strong>",
+      "Responsible for everything in the game: design, programming, art, music, etc. Prototype took 3 days to make, extra polish and online features extended the project for about a month."
+    ],
+    links: [
+      {
+        title: "View Source on GitHub",
+        url: "https://github.com/admoraguilar/worldofnumbers-unity/tree/develop"
       }
     ]
   },
   {
-    name: "After Image Remastered",
-    duration: "Apr 2017",
+    title: "After Image Remastered",
+    subtitle: "Team FROLIC - Apr 2017",
     youtube_id: "B3nhaIevAGY",
     header: "A third person action-adventure game about a dead man who had been revived using cybernetics by the mysterious Agaran Industries.",
     descriptions: [
-      "Made with Unreal Engine 4 using C++ and released for PC. Project took 3 months to make with a team of 8 people for our second college thesis project.",
-      "Responsible for making tools such as an event system that could be used for decoupled communication between objects. The tool could also be used through Unreal's Blueprint hence empowering our designers.",
+      "This project is <strong>OPEN-SOURCE</strong>, feel free to dive through the code below.",
+      "Done in: <strong>Unreal Engine 4 using C++ and released for PC.</strong>",
+      "Project took 3 months to make with a team of 8 people for our second college thesis project.",
+      "Responsible for <strong>making tools such as an event system that could be used for decoupled communication between objects</strong>. The tool could also be <strong>used through Unreal's Blueprint hence empowering our designers.</strong>",
       "Responsible for general parts of the game such as design, narrative, UX, and cinematics."
     ],
     links: [
       {
-        name: "Source on GitHub",
+        title: "View Source on GitHub",
         url: "https://github.com/wishfuldroplet/ue4_afterimage2"
       }
     ]
   },
   {
-    name: "World of Numbers",
-    duration: "Apr 2018",
-    youtube_id: "2upmXAZFl_s",
-    header: "",
-    descriptions: [
-      "Made with Unity 2018 and released for both Android and iOS devices. Features online connectivity such as global leaderboards, user account management, and cloud save.",
-      "Responsible for everything in the game: design, programming, art, music, etc. Prototype took 3 days to make, extra polish and online features extended the project for about a month."
-    ],
-    links: [
-      {
-        name: "Source on GitHub",
-        url: "https://github.com/admoraguilar/unity_worldofnumbers"
-      }
-    ]
-  },
-  {
-    name: "ProjectBREACH",
-    duration: "Oct 2016",
+    title: "ProjectBREACH",
+    subtitle: "Team FROLIC - Oct 2016",
     youtube_id: "CSTowp-_m4Y",
-    header: "",
+    header: "A first person hacking game in order to unravel the truth about a shady corporation.",
     descriptions: [
-      "Made with Unity 5 and released for PC. Project took 3 months to make with a team of 3 people for our first college thesis.",
-      "Responsible for Core Gameplay, Input, Audio, UI, UX, Tools, and Cinematics Programming.",
-      "Responsible for Character system, Weapon system, Input system, Audio soundscapes, UI systems, Custom sequencer for cutscenes."
+      "Done in: <strong>Unity 5 and released for PC</strong>.",
+      "Project took 3 months to make with a team of 3 people for our first college thesis.",
+      "Responsible for <strong>Core Gameplay, Input, Audio, UI, UX, Tools, and Cinematics Programming.</strong>",
+      "Responsible for <strong>Character system, Weapon system, Input system, Audio soundscapes, UI systems, Custom sequencer for cutscenes.</strong>"
     ],
     links: [ ]
   },
@@ -238,42 +373,109 @@ projects: [
 
 more_projects: [
   {
-    name: "Lost - A Horror Experience",
-    duration: "Nov 2014",
+    title: "[ｄｒｉｖｅ　ニギ゠] Megiapa - ♥u&cym",
+    duration: "Solo Personal - Jan 2018",
+    youtube_id: "hTasWq0j_tw",
+    header: "An animated music video created in 2 weeks from conceptualization to finish for Unity Neon Challenge.",
+    descriptions: [
+      "Done in: <strong>Unity 2018.</strong>",
+      "A project for fun, was responsible for everything from conceptualization to finish which was also lightly edited on a video editing software for final touches.",
+      "This project required <strong>different optimization techniques to run smoothly at 60FPS such as Level-of-Detail(LOD), Baked Lighting, Occlusion Culling, etc.</strong>"
+    ],
+    links: [
+      {
+        name: "View on Unity Connect (Deprecated)",
+        url: "https://connect.unity.com/p/drive-nigi"
+      },
+    ]
+  },
+  {
+    title: "Canvas Run",
+    subtitle: "Voodoo.io - 2021",
+    youtube_id: "OM3oGC84fYs",
+    header: "A hypercasual game coming from Voodoo. My contribution was focused on optimizing the game for lower-end devices.",
+    descriptions: [
+      "This project is for mobile devices: <strong>Android and iOS.</strong>",
+      "Done in: <strong>Unity, C#</strong>",
+      "My main focus here was to <strong>optimize the game for lower-end mobile devices</strong> as it was lagging heavily especially on Android.",
+      "I've applied optimization techniques such as <strong>dynamic and static batching</strong>. Also cleaned up the project by removing post-processing that was present but isn't actually used.",
+      "I've also optimized a lot of game-specific code to use as less resources as possible, such as the way the balls stick and move together.",
+      "All this effort brought the game <strong>from 7-12FPS to a stable 25-30 FPS even on low-end.</strong>"
+    ],
+    links: [
+      {
+        title: "Get on Google Play Store",
+        url: "https://play.google.com/store/apps/details?id=com.studio501.canvasrun"
+      },
+      {
+        title: "Get on Apple App Store",
+        url: "https://apps.apple.com/us/app/canvas-run/id1583922362"
+      },
+    ]
+  },
+  {
+    title: "Backflip Master",
+    subtitle: "Voodoo.io - 2021",
+    youtube_id: "3goYvWRHTtI",
+    header: "A hypercasual game coming from Voodoo. My contribution was focused on optimizing the game for lower-end devices.",
+    descriptions: [
+      "This project is for mobile devices: <strong>Android and iOS.</strong>",
+      "Done in: <strong>Unity, C#</strong>",
+      "My main focus here was to <strong>optimize the game for lower-end mobile devices</strong> as it was lagging heavily especially on Android.",
+      "I've applied optimization techniques such as <strong>dynamic and static batching</strong>. Also cleaned up the project by removing post-processing that was present but isn't actually used.",
+      "I've also optimized a lot of game-specific code to use as less resources as possible",
+      "These simple fixes brought the game <strong>from 7-12FPS to a stable 50-60 FPS even on low-end.</strong>"
+    ],
+    links: [
+      {
+        title: "Get on Google Play Store",
+        url: "https://play.google.com/store/apps/details?id=com.Konsordo.BackflipMaster2"
+      },
+      {
+        title: "Get on Apple App Store",
+        url: "https://apps.apple.com/us/app/backflip-master-parkour-game/id1589248413"
+      },
+    ]
+  },
+  {
+    title: "Lost - A Horror Experience",
+    subtitle: "Solo Personal - Nov 2014",
     youtube_id: "ijfDU799q3g",
     header: "",
     descriptions: [
-      "Made with Unity 4 and released for PC. Project was made for fun and was later ported to VR utilizing the Oculus Rift DK1 which was a novel tech at the time.",
+      "Done in: <strong> Unity 4 and released for PC</strong>.",
+      "Project was made for fun and was <strong>later ported to VR utilizing the Oculus Rift DK1 which was a novel tech at the time.</strong>",
       "Responsible for everything from conceptualization to finish. Project took 3 days to make.",
     ],
     links: [ 
       {
-        name: "Play on Gamejolt!",
+        title: "Play on Gamejolt!",
         url: "https://gamejolt.com/games/lost/39859"
       }
     ]
   },
   {
-    name: "Tower of Hanoi",
-    duration: "Apr 2017",
+    title: "Tower of Hanoi",
+    subtitle: "Solo Personal - Apr 2017",
     youtube_id: "To7n7LPVTc8",
     header: "",
     descriptions: [
-      "A project for fun to practice with Unreal Engine 4 using C++.",
-      "Utilized Unreal's game framework, widgets, sequencer.",
+      "A project for fun to practice with <strong>Unreal Engine 4 using C++.</strong>",
+      "Utilized <strong>Unreal's game framework, widgets, sequencer.</strong>",
       "Made an event bus system for a decoupled communication between objects."
     ],
     links: [ ]
   },
   {
-    name: "Think Out of the Box",
-    duration: "Jul 2015",
+    title: "Think Out of the Box",
+    subtitle: "Team FROLIC - Jul 2015",
     youtube_id: "ByGisEyetOM",
     header: "",
     descriptions: [
-      "Made with Unity 4 with a team of 4 people and released for PC. Project was a reimagined version of our game that won in Global Game Jam Benilde 2015.",
+      "Done in: <strong>Unity 4 with a team of 4 people and released for PC. </strong>",
+      "Project was a reimagined version of our game that won in Global Game Jam Benilde 2015.",
       "Responsible for programming everything, project took a week to make.",
-      "Responsible for First Person Controller system, Puzzle mechanics, UI systems, Audio Soundscapes."
+      "Responsible for <strong>First Person Controller system, Puzzle mechanics, UI systems, Audio Soundscapes.</strong>"
     ],
     links: [ ]
   },

@@ -112,8 +112,10 @@ sitemap:
         {% assign youtube_id = project.youtube_id %}
         {% include youtube-embed.html id=youtube_id %}
         <p>{{project.youtube.id}}</p>
-        <h2>{{ project.name }}</h2>
-        <p>{{ project.duration }}</p>
+        <h2>
+          {{ project.title }}    
+        </h2>
+        <p>{{ project.subtitle }}</p>
       </header>
       {% if project.header != "" %}
         <blockquote> {{ project.header }} </blockquote>
@@ -125,11 +127,27 @@ sitemap:
           {% endfor %}
         </ul>
       </p>
-      <ul class="actions fit">
-        {% for link in project.links %}
-            <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.name}}</a></li>
-        {% endfor %}  
-      </ul>
+      {% if project.links.size > 0 %}
+        <ul class="actions fit">
+          {% for link in project.links %}
+              <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.title}}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if project.links2.size > 0 %}
+        <ul class="actions fit">
+          {% for link in project.links2 %}
+              <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.title}}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if project.links3.size > 0 %}
+        <ul class="actions fit">
+          {% for link in project.links3 %}
+              <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.title}}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </header>
   {% endfor %}
   <hr/>
@@ -167,8 +185,8 @@ sitemap:
         {% assign youtube_id = project.youtube_id %}
         {% include youtube-embed.html id=youtube_id %}
         <p>{{project.youtube.id}}</p>
-        <h2>{{ project.name }}</h2>
-        <p>{{ project.duration }}</p>
+        <h2>{{ project.title }}</h2>
+        <p>{{ project.subtitle }}</p>
       </header>
       {% if project.header != "" %}
         <blockquote> {{ project.header }} </blockquote>
@@ -182,7 +200,7 @@ sitemap:
       </p>
       <ul class="actions fit">
         {% for link in project.links %}
-            <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.name}}</a></li>
+            <li><a href="{{link.url}}" class="button special fit center" target="_blank">{{link.title}}</a></li>
         {% endfor %}  
       </ul>
     </header>

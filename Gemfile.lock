@@ -117,6 +117,7 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -129,6 +130,7 @@ DEPENDENCIES
   jekyll-mentions
   jekyll-paginate
   jekyll-sitemap
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.3.12
