@@ -247,7 +247,7 @@ projects: [
       },
       {
         title: "Download APK",
-        url: "documents/virtualhole-0.4.apk"
+        url: "https://media.githubusercontent.com/media/admoraguilar/admoraguilar.github.io/master/documents/virtualhole-0.4.apk"
       },
     ]
   },
@@ -290,7 +290,7 @@ projects: [
       },
       {
         title: "Download APK",
-        url: "documents/a-0.06.apk"
+        url: "https://media.githubusercontent.com/media/admoraguilar/admoraguilar.github.io/master/documents/a-0.06.apk"
       },
     ]
   },
@@ -384,7 +384,7 @@ more_projects: [
     ],
     links: [
       {
-        name: "View on Unity Connect (Deprecated)",
+        title: "View on Unity Connect (Deprecated)",
         url: "https://connect.unity.com/p/drive-nigi"
       },
     ]
