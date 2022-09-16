@@ -8,8 +8,8 @@ description: "Done Projects for <strong>PC, Mobile (Android/iOS), VR/AR. <br/ > 
 current-position-name: "Game Developer"
 current-company-name: "Voodoo.io"
 current-company-website: "https://www.voodoo.io/"
-location: "Paris, France 🇫🇷"
-phone: "+33 6 33 29 13 89"
+location: "Manila, Philippines 🇵🇭"
+phone: "+63 915 633 9334"
 email: "admor.aguilar@gmail.com"
 social: [
   {
@@ -66,12 +66,30 @@ unity_editor_tools: [
 # Experience
 experiences: [
   {
+    title: "Studio Director / Technical Director",
+    company: "All Aboard Learning",
+    company_logo: "/images/companies/AllAboardLearning.png",
+    company_website: "https://allaboardlearning.com//",
+    location: "Oxford, United Kingdom",
+    duration: "2022 - Present",
+    header: "Leading a team of 6 people responsible for creating an app using <strong>UNITY</strong> that teaches kids to learn how to read. Leading the team using <strong>AGILE methodologies: Standups, Sprints, Reviews</strong>",
+    descriptions: [
+      "Also serving as the technical director for the various software that the company is creating. With the role ranging from <strong>guiding the technical architecture of a product, integrating different technical solutions depending on the needs such as Analytics, CI/CD, Automation, advising on how to best approach technical problems encountered by developers</strong>",
+      "Working directly with the CEO in order to <strong>continuously evaluate and guide the direction of the company.</strong>",
+      "Reporting directly to the CEO about different topics such as <strong>team health, team focus, team progress in relation to the company objectives.</strong>",
+      "<strong>Supporting and developing people</strong> with their personal well-being or career development needs; working with them <strong>through 1:1s</strong> or on a daily basis.",
+      "Spearheaded the <strong>implementation of measurable performance anywhere in the company</strong> from products to people in the form of <strong>meaningful KPIs and OKRs.</strong>",
+      "Handling office needs such as office equipment, or people needs whether software or hardware."
+    ],
+    footer: "Keywords: unity, agile, scrum, kpis, okrs, studio, technical, director"
+  },
+  {
     title: "Game Developer",
     company: "Voodoo",
     company_logo: "/images/companies/voodoo.jfif",
     company_website: "https://www.voodoo.io/",
     location: "Paris, France",
-    duration: "2021 - Present",
+    duration: "2021 - 2022",
     header: "Using <strong>UNITY</strong>, focused on optimizing multiple games for <strong>low-end hardware</strong> so that they can run as fast and stable as possible. .",
     descriptions: [
       "<strong>Being data-driven by the usage and analyzation of big data across 100+ games</strong> in order to guide the direction of a product for maximum business impact.",
@@ -171,6 +189,11 @@ skills: [
     body: "I have projects done for different platforms. I love to tinker around different platforms and see the different nuances they have to develop for them. I'm not a know-it-all, but it's alright because it means there's always more to learn!",
     descriptions: [ ],
     additional_info: "❔ A little trivia: <br><br> Back in 2014, I once ported a first-person horror game of mine called 'Lost - A Horror Experience' to the Oculus Rift DK1. At that time VR is still very new, I clearly remember the alien looking case for it! <br> <br> On my free time, I always tend to consume readings and courses about new technologies. Currently I'm learning web development, virtual and augmented reality, and the Japanese language, if I wanna take some break from professional game development."
+  },
+  {
+    fontawesome_icon: "fa-check",
+    header: "Keywords",
+    body: "Unity, C#, Scalable Architectures, Optimization, UI, Unity Editor Tools, Gameplay, AGILE, SCRUM, KPIs, OKRs, Studio, Technical, Director, Analytics, Big Data, AB Tests, Large Playerbase, Publishing, Hypercasual, Frameworks, Performance, Google Play Store, Apple App Store, Android, iOS, Online, Photon Networking, 3D, Backend, Team Management, UX, VR, AR",
   },
 ]
 
